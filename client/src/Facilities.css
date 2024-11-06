@@ -1,0 +1,116 @@
+/* Facilities.css */
+
+/* Center the grid container and set its maximum width */
+.product-list-container4 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    padding: 20px; /* Add some padding */
+    margin: 0 auto; /* Center container with auto margin */
+    max-width: 1200px; /* Increase maximum width for better spacing */
+    background-color: #f0f4ff; /* Light blue background for the container */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.product-list1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 30px; /* Space between grid items */
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Remove default list styling */
+    width: 100%; /* Ensure grid takes full width of the container */
+}
+
+.product-item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff; /* White background for cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.product-item2:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.product-image4 {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    max-height: 250px; /* Set maximum height */
+    object-fit: cover;
+    border-radius: 8px; /* Rounded corners for images */
+    margin-bottom: 10px;
+}
+
+.product-info6 {
+    display: flex;
+    flex-direction: column; /* Stack name and buttons vertically */
+    align-items: center;
+}
+
+.product-name8 {
+    font-size: 22px; /* Adjust size as needed */
+    margin-bottom: 10px;
+    text-align: center;
+    color: #007acc; /* Bright blue color for the product name */
+}
+
+/* Button group for delete and view buttons */
+.button-group {
+    display: flex;
+    justify-content: space-evenly; /* Optional: Adjust spacing between buttons */
+    margin-top: 10px;
+     /* Add space above buttons */
+}
+
+.delete-button9 {
+    background-color: #ff4757; /* Bright red for delete button */
+    color: white;
+    border: none;
+    padding: auto ; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition */
+    margin-right: 10px; /* Space between buttons */
+}
+
+.delete-button9:hover {
+    background-color: #e84118; /* Darker red on hover */
+}
+
+.view-button {
+    background-color: #007acc; /* Blue background for view button */
+    color: white;
+    border: 2px solid transparent; /* Transparent border by default */
+    padding: 8px 5px  ; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: border 0.3s, background-color 0.3s; /* Smooth transition */
+}
+
+.view-button:hover {
+    border: 1px solid yellow; 
+    background-color: white ;
+    color: #007acc;/* Yellow border on hover */
+}
+
+
+
+.Heading2 {
+    text-align: center;
+    font-size: 36px; /* Adjusted font size */
+    margin: 40px 0; /* Increased margin for spacing */
+    color: #007acc; /* Bright blue for heading */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for text */
+}
+
+
+
+

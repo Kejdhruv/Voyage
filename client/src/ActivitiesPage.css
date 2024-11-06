@@ -1,0 +1,220 @@
+/* Updated styling for the requirements section */
+.details-section-custom1 h3 {
+    font-size: 24px; /* Increase font size for better readability */
+    margin-bottom: 15px; /* Add margin below the heading */
+    color: #003580; /* Deep blue color for headings */
+}
+
+/* Styling for the requirements list */
+.details-section-custom1 ul {
+    list-style-type: none; /* Remove bullets */
+    padding-left: 0; /* Remove default padding */
+    margin-top: 0; /* Remove top margin */
+}
+
+.details-section-custom1 ul li {
+    font-size: 16px; /* Slightly larger font for list items */
+    margin-bottom: 10px; /* Add space between list items */
+    padding-left: 10px; /* Add left padding for a cleaner look */
+    position: relative;
+}
+
+/* Optional: Add a small icon before each list item for a clean bullet alternative */
+.details-section-custom1 ul li::before {
+    content: '✔️'; /* Use a checkmark for each requirement */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px; /* Icon size */
+    color: #007bb5; /* Matching color for the checkmark */
+    margin-right: 10px; /* Space between the checkmark and the text */
+}
+
+/* Container for the Requirements section */
+.requirements-section {
+    background-color: #f7f9fc; /* Light background */
+    padding: 20px; /* Add padding for separation */
+    border-radius: 8px; /* Rounded corners for a clean look */
+    margin-bottom: 20px; /* Add space at the bottom */
+}
+
+/* Container styles */
+.container-custom {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Bright white background */
+    border-radius: 10px; /* Subtle rounding */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Content styles */
+.content-custom {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Guide info styles */
+.guide-info-custom {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #f0f4f8; /* Light background for guide info */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-section-custom {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    /* Soft blue background */
+}
+
+/* Carousel container styles */
+.carousel-container {
+    width: 100%; /* Full width */
+    height: 400px; /* Fixed height for consistency */
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Carousel image styles */
+.carousel-image {
+    width: 100%;
+    height: 100%; /* Ensure it covers the full height */
+    object-fit: cover; /* Maintain aspect ratio while covering container */
+    transition: opacity 1s ease-in-out; /* Smooth transition for fade effect */
+}
+
+/* Guide details styles */
+.guide-details-custom {
+    margin-top: 10px;
+}
+
+/* Updated About Me style */
+.guide-about-me {
+    font-size: 24px; /* Large text */
+    font-weight: bold;
+    color: #003580; /* Deep blue */
+    text-align: left; /* Align to the left */
+    margin: 20px 0; /* Add some margin */
+}
+
+.guide-name-custom {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #003580; /* Deep blue */
+}
+
+.guide-age-custom,
+.guide-contact-custom {
+    margin: 5px 0;
+    color: #666; /* Softer text color */
+}
+
+/* Details section styles */
+.details-section-custom1 {
+    flex: 2;
+    padding-left: 20px;
+    background-color: #ffffff; /* White background */
+}
+
+.details-section-custom1 h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #003580; /* Consistent dark color */
+}
+
+.details-section-custom1 h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #0056b3; /* Lighter blue for headings */
+}
+
+/* Remove list bullets */
+.details-section-custom1 ul {
+    padding-top: 0;
+    padding-left: 0; /* Remove padding */
+    list-style-type: none; /* Remove bullets */
+}
+
+/* Booking form styles */
+.form-custom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #f7f9fc; /* Very light background for form */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.form-custom label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333; /* Dark gray */
+}
+
+.form-custom input, 
+.form-custom select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.3s;
+}
+
+.form-custom input:focus, 
+.form-custom select:focus {
+    border: 1px solid #003580; /* Dark blue border on focus */
+    outline: none;
+}
+
+.form-custom button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007bb5; /* Bright blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.form-custom button:hover {
+    background-color: #005f8b; /* Darker blue on hover */
+    transform: translateY(-1px); /* Slight lift effect */
+}
+
+/* Error and loading messages */
+.error-message-custom {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.loading-message-custom {
+    text-align: center;
+    margin-top: 20px;
+    color: #666; /* Softer loading text color */
+}
+
+.error-message-custom {
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text */
+    border: 1px solid #f5c6cb; /* Light red border */
+    border-radius: 5px; /* Slightly rounded corners */
+    padding: 10px; /* Padding for spacing */
+    margin-top: 10px; /* Space above the message */
+    font-size: 14px; /* Font size */
+    font-weight: bold; /* Make the text bold */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center align items vertically */
+}
+
+.error-message-custom::before {
+    content: '⚠️'; /* Add an icon before the message */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+

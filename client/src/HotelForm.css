@@ -1,0 +1,126 @@
+
+.hotel-form-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px; 
+}
+
+
+.hotel-form {
+    flex: 1;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: transform 0.3s;
+}
+
+.hotel-form:hover {
+    transform: scale(1.02); 
+}
+
+.hotel-form h1 {
+    text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.hotel-form input,
+.hotel-form textarea,
+.hotel-form select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.hotel-form input:focus,
+.hotel-form textarea:focus,
+.hotel-form select:focus {
+    border-color: #6c63ff; 
+    outline: none;
+}
+
+
+.hotel-form button {
+    background-color: #6c63ff;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.hotel-form button:hover {
+    background-color: #5a52db; 
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.side-section {
+    flex: 1;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.side-section h2 {
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.hotel-showcase {
+    margin-top: 20px;
+    border-top: 2px solid #6c63ff;
+    padding-top: 20px;
+}
+
+.hotel-showcase p {
+    margin: 5px 0;
+}
+
+.hotel-image {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.rooms-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rooms-list-item {
+    background-color: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rooms-list-item img {
+    margin-left: 10px;
+    border-radius: 8px;
+    width: 50px; 
+}
+

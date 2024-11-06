@@ -1,0 +1,92 @@
+.restaurant-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+    color: black; /* Make title text black */
+}
+
+.restaurant-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Spacing between cards */
+    justify-items: center; /* Center items in each grid cell */
+}
+
+.restaurant-link {
+    text-decoration: none; /* Remove underline from links */
+}
+
+.restaurant-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 600px; /* Fixed width for uniformity */
+    transition: transform 0.2s, border 0.2s; /* Smooth hover effect for scale and border */
+    display: flex;
+    flex-direction: row; /* Horizontal layout */
+}
+
+.restaurant-card:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    border: 1px solid yellow; /* Add yellow border on hover */
+}
+
+.restaurant-image {
+    width: 40%; /* Adjust width for the image container */
+    overflow: hidden; /* Hide overflow */
+}
+
+.restaurant-image img {
+    width: 100%;
+    height: 100%; /* Fill the entire height */
+    object-fit: cover; /* Ensure image covers the area */
+}
+
+.restaurant-details {
+    padding: 15px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Space out items */
+    flex-grow: 1; /* Allow to grow and fill space */
+}
+
+.restaurant-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0; /* Remove default margin */
+    color: black; /* Make name text black */
+}
+
+.rating-box {
+    display: flex;
+    align-items: center;
+    color: white  /* Make rating text black */
+}
+
+.restaurant-city, .restaurant-cuisine {
+    font-size: 14px;
+    color: black; /* Change city and cuisine text to black */
+}
+
+.restaurant-actions {
+    display: flex;
+    justify-content: flex-end; /* Align button to the right */
+}
+
+.btn-view {
+    background-color: #003580; /* Button color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-view:hover {
+    background-color: #002060; /* Darker shade on hover */
+}
+
+
